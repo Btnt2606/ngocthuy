@@ -1,0 +1,117 @@
+.frame-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d9d9d9;
+    width: 541px;
+    height: 411px;
+  }
+  
+  .ti-xung-1 {
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 54px;
+    height: 47px;
+    object-fit: cover;
+  }
+  
+  .gi-li-mi {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+  }
+  
+  .hy-nhp-email {
+    position: absolute;
+    top: 131px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #282222;
+  }
+  
+  .rectangle-div {
+    position: absolute;
+    top: 155px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+    background-color: var(--color-white);
+    width: 294px;
+    height: 36px;
+  }
+  
+  .enter-email {
+    position: absolute;
+    top: 165px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #545454;
+  }
+  
+  .group-child,
+  .gi-li-mi1,
+  .rectangle-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .group-child {
+    background-color: #3668b3;
+    width: 154px;
+    height: 60px;
+  }
+  
+  .rectangle-group {
+    width: 154px;
+    height: 60px;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  
+  .rectangle-root {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 404px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-times-new-roman);
+  }
+  
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-times-new-roman: "Times New Roman";
+    --font-size-base: 16px;
+    --font-size-xl: 20px;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-lightgreen: #7cd47a;
+  }
+  .send-invitation-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    background-color: #3668b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
